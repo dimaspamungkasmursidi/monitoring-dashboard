@@ -51,7 +51,7 @@ export default function App() {
         {robotStatus ? (
           <>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <StatusCard label="Status Koneksi" value="Online" type="koneksi" />
+              <StatusCard label="Status" value="Online" type="koneksi" />
               <StatusCard label="Baterai" value={`${batteryData.at(-1)?.level.toFixed(1)}%`} type="baterai" />
               <StatusCard label="Total Working Hours" value="12 Jam" type="waktu" />
             </div>

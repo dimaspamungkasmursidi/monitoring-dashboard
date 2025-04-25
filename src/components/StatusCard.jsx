@@ -4,7 +4,7 @@ const icons = {
   koneksi: <Wifi className="text-blue-500 w-6 h-6" />,
   baterai: <BatteryFull className="text-yellow-500 w-6 h-6" />,
   suhu: <Thermometer className="text-red-500 w-6 h-6" />,
-  waktu: <Clock className="text-purple-500 w-6 h-6" />, // ← Tambahan ini bro
+  waktu: <Clock className="text-purple-500 w-6 h-6" />,
 }
 
 export default function StatusCard({ label, value, type }) {
